@@ -65,6 +65,7 @@ Subject
   ^\s*c=${SUBJECT_C}\s*$$
   ^\s*Name:\s*${SUBJECT_NAME}\s*$$
   ^\s*Serial\s*Number:\s*${SUBJECT_SERIAL_NUMBER}\s*$$
+  ^\s*Serial\s*Number:\s*PID:\S+\s+SN:${SUBJECT_SERIAL_NUMBER}\s*$$
   ^\s*serialNumber=\S+\s*$$
   ^\s*hostname=${SUBJECT_HOSTNAME}\s*$$
   ^\s*CRL Distribution Points:\s*$$ -> CRLDistPoints
